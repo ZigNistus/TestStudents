@@ -1,0 +1,53 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main_tittle {
+    font-size: 50px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.main_result-text {
+    font-size: 25px;
+    margin-bottom: 45px;
+}
+
+.main_result-mark {
+    font-size: 30px;
+    transition: opacity 900ms ease-in;
+}
+
+.main_result-mark.great {
+
+    color: rgb(0, 255, 55);
+}
+
+.main_result-mark.good {
+    color: rgb(71, 175, 67);
+}
+
+.main_result-mark.almost {
+    color: rgb(211, 207, 0);
+}
+
+.main_result-mark.bad {
+
+    color: rgb(255, 0, 0);
+}
+
+.markmsg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    width: 40vw;
+    font-size: 30px;
+}
